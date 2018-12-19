@@ -1,0 +1,28 @@
+// pixels , rem
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // 1 rem = 16 pixels by default. 16*62.5 = 10 => 1 rem now equals font size 10
+}
+
+body {
+  color: $dark-grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
